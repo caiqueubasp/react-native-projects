@@ -1,0 +1,4 @@
+#Fri Jan 03 19:49:17 BRT 2020
+base.0=/home/caique/Documentos/dev/react-native-projects/app1/android/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/dfcbef352fd16f64591a7db1f05a9966/appcompat-v7-23.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c0bddc2eea2210f22ba11e7af877cecd/support-v4-23.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/caique/.gradle/caches/transforms-2/files-2.1/2509bf6fcddaf9ef1227748d7a96d97a/textlayoutbuilder-1.0.0/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/11ea88650d079e378089af33f65c2944/fresco-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/836b93dfacfb5e322a351a23f9712dae/imagepipeline-okhttp3-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/caique/.gradle/caches/transforms-2/files-2.1/1219e8968a05974b3b123df54c098ad3/soloader-0.1.0/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/caique/.gradle/caches/transforms-2/files-2.1/b481328fe2d39e10ac53cd6d1031ac14/android-jsc-r174650/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/36c34452aaa6e3c2295d7a245181326a/drawee-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c7bd2e7850270c7cbc4879c6d90574f5/imagepipeline-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/51247c69ddbfd997dbb6d095f024584d/imagepipeline-base-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/514b1812ca8749b1831c07d1ffdd22fe/fbcore-1.0.1/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:7:22-75
+uses-sdk
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/dfcbef352fd16f64591a7db1f05a9966/appcompat-v7-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/dfcbef352fd16f64591a7db1f05a9966/appcompat-v7-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c0bddc2eea2210f22ba11e7af877cecd/support-v4-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c0bddc2eea2210f22ba11e7af877cecd/support-v4-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/caique/.gradle/caches/transforms-2/files-2.1/2509bf6fcddaf9ef1227748d7a96d97a/textlayoutbuilder-1.0.0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/caique/.gradle/caches/transforms-2/files-2.1/2509bf6fcddaf9ef1227748d7a96d97a/textlayoutbuilder-1.0.0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/11ea88650d079e378089af33f65c2944/fresco-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/11ea88650d079e378089af33f65c2944/fresco-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/836b93dfacfb5e322a351a23f9712dae/imagepipeline-okhttp3-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/836b93dfacfb5e322a351a23f9712dae/imagepipeline-okhttp3-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/caique/.gradle/caches/transforms-2/files-2.1/1219e8968a05974b3b123df54c098ad3/soloader-0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/caique/.gradle/caches/transforms-2/files-2.1/1219e8968a05974b3b123df54c098ad3/soloader-0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/36c34452aaa6e3c2295d7a245181326a/drawee-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/36c34452aaa6e3c2295d7a245181326a/drawee-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c7bd2e7850270c7cbc4879c6d90574f5/imagepipeline-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c7bd2e7850270c7cbc4879c6d90574f5/imagepipeline-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/51247c69ddbfd997dbb6d095f024584d/imagepipeline-base-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/51247c69ddbfd997dbb6d095f024584d/imagepipeline-base-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/514b1812ca8749b1831c07d1ffdd22fe/fbcore-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/514b1812ca8749b1831c07d1ffdd22fe/fbcore-1.0.1/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+	android:targetSdkVersion
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:15-44
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:9:5-47
+		INJECTED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:11:5-28:19
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.44.0] /home/caique/.gradle/caches/transforms-2/files-2.1/8e1f6d65f7fe7541fd1b98da1dbd2db9/react-native-0.44.0/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/dfcbef352fd16f64591a7db1f05a9966/appcompat-v7-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/dfcbef352fd16f64591a7db1f05a9966/appcompat-v7-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c0bddc2eea2210f22ba11e7af877cecd/support-v4-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/caique/.gradle/caches/transforms-2/files-2.1/c0bddc2eea2210f22ba11e7af877cecd/support-v4-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/caique/.gradle/caches/transforms-2/files-2.1/1219e8968a05974b3b123df54c098ad3/soloader-0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/caique/.gradle/caches/transforms-2/files-2.1/1219e8968a05974b3b123df54c098ad3/soloader-0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/caique/.gradle/caches/transforms-2/files-2.1/b481328fe2d39e10ac53cd6d1031ac14/android-jsc-r174650/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/caique/.gradle/caches/transforms-2/files-2.1/b481328fe2d39e10ac53cd6d1031ac14/android-jsc-r174650/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:14:7-39
+	android:icon
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:15:7-41
+	android:allowBackup
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:13:7-33
+	android:theme
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:12:7-38
+activity#com.app1.MainActivity
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:17:7-26:18
+	android:label
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:19:9-41
+	android:windowSoftInputMode
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:18:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:27:17-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/caique/Documentos/dev/react-native-projects/app1/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
