@@ -1,77 +1,87 @@
 // Import components
 import React from 'react';
-import { Text, AppRegistry, View, Button, TouchableOpacity } from 'react-native';
+import { Text, AppRegistry, View, Button, TouchableOpacity, Image, Alert } from 'react-native';
 
 //Formatations
 const Estilos = {
-  estiloTexto: {
-    fontSize: 30,
-    backgroundColor: '#32a852',
-    shadowColor: '#000',
-    shadowOffset: {width:-15, height:-30},
-    shadowOpacity: 1,
-    height: 50,
-    width: 300,
-    padding: 5,
-    marginTop: 3,
-    alignSelf: 'center',
-    textAlign: 'center',
-    color: '#fff',
-    fontWeight: 'bold',
-    fontStyle: 'italic'
-  },
-  estiloView: {
+  principal: {
     flex: 1,
-backgroundColor: '#000',
-height: 300,
-justifyContent: 'center',
-alignItems: 'center'
-
+    backgroundColor: '#c3d9de',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
-  button1: {
-    flex: 2,
-    backgroundColor: "#48BBEC",
-    borderColor: '#1d8eb8',
-    borderWidth: 3,
-    borderRadius: 8,
-    shadowColor: '#000',
-    shadowOffset: {width:0, height: 2},
-    shadowOpacity: 0.4
+  btn: {
+    backgroundColor: '#098fad',
+    paddingVertical: 10,
+    paddingHorizontal: 40,
+    marginTop: 20
   },
-  button2: {
-    flex: 2,
-    backgroundColor: "blue"
-
-  },
-  button2Text: {
-    color: "white",
-    fontWeight: 'bold',
-    fontSize: 16
+  textBtn: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold'
   }
+
 };
 
-const botaoPressionado = () => {
-alert('Botão Pressionado');
+const gerarNovaFrase = () => {
+
+  var numeroAleatorio = Math.random();
+  numeroAleatorio = Math.floor(numeroAleatorio * 30);
+
+  var frases = Array();
+  frases[0] = 'O importante não é vencer todos os dias, mas lutar sempre. Waldemar Valle Martins';
+  frases[1] = 'Maior que a tristeza de não haver vencido é a vergonha de não ter lutado! Rui Barbosa';
+  frases[2] = 'É melhor conquistar a si mesmo do que vencer mil batalhas. Buda';
+  frases[3] = 'Quem ousou conquistar e saiu pra lutar, chega mais longe! Charlie Brown Jr';
+  frases[4] = 'Enquanto houver vontade de lutar haverá esperança de vencer. Santo Agostinho';
+  frases[5] = 'Difícil é ganhar um amigo em uma hora; fácil é ofendê-lo em um minuto. Provérbio Chinês';
+  frases[6] = 'O medo de perder tira a vontade de ganhar. Wanderley Luxemburgo';
+  frases[7] = 'Aquele que não tem confiança nos outros, não lhes pode ganhar a confiança. Lao-Tsé';
+  frases[8] = 'Escolher o seu tempo é ganhar tempo. Francis Bacon';
+  frases[9] = 'Perder para a razão, sempre é ganhar. Aldo Novak';
+  frases[10] = 'Arriscamo-nos a perder quando queremos ganhar demais. Jean de La Fontaine';
+  frases[11] = 'Muitos sabem ganhar dinheiro, mas poucos sabem gastá-lo. Henry David Thoreau';
+  frases[12] = 'Se você pretende ser rico, pense em economizar tanto quanto em ganhar. Benjamin Franklin';
+  frases[13] = 'O homem digno ganha para viver; o menos honesto vive para ganhar. Textos Judaicos';
+  frases[14] = 'Para ganhar aquilo que vale a pena ter, pode ser necessário perder tudo mais. Bernadette Devlin';
+  frases[15] = 'A maior caridade é habilitar o pobre a ganhar a sua vida. Textos Judaicos';
+  frases[16] = 'Quem sabe o que se pode ganhar num dia jamais furta. George Herbert';
+  frases[17] = 'A avareza perde tudo ao pretender ganhar tudo. Jean de La Fontaine';
+  frases[18] = 'O mundo está perdido para aqueles que o querem ganhar. Textos Taoístas';
+  frases[19] = 'Loteria: acho que, jogando ou não, você tem a mesma chance de ganhar. Fran Lebowitz';
+  frases[20] = 'Não basta conquistar a sabedoria, é preciso usá-la. Cícero';
+  frases[21] = 'De que serve ao homem conquistar o mundo inteiro se perder a alma? Jesus Cristo';
+  frases[22] = 'De nada serve ao homem conquistar a Lua se acaba por perder a Terra. François Mauriac';
+  frases[23] = 'É fácil adquirir um inimigo; difícil é conquistar um amigo. Textos Judaicos';
+  frases[24] = 'Quer você acredite que consiga fazer uma coisa ou não, você está certo. Henry Ford';
+  frases[25] = 'Acredite na justiça, mas não a que emana dos demais e sim na tua própria. Código Samurai';
+  frases[26] = 'A única forma de vencer uma discussão é evitá-la. Dale Carnegie';
+  frases[27] = 'Não há dor que o sono não consiga vencer. Honoré de Balzac';
+  frases[28] = 'Sofrer, é só uma vez; vencer, é para a eternidade. Soren Kierkegaard';
+  frases[29] = 'A arte de vencer se aprende nas derrotas. Simon Bolívar';
+  frases[30] = 'O mal não pode vencer o mal. Só o bem pode fazê-lo. Leon Tolstói';
+
+  var fraseEcolhida = frases[ numeroAleatorio ];
+
+
+  Alert.alert(fraseEcolhida);
+
 };
 
 // Create component
 const App = () => {
-  const { estiloTexto, estiloView, button1, button2, button2Text } = Estilos;
+  const { principal, btn, textBtn } = Estilos;
   return (
-    <View style={ estiloView }>
-<Text style={ estiloTexto }>Frases do dia</Text>
-<Button
-onPress={botaoPressionado}
-title="Clique aqui!"
-color="#fcba03"
-accessibilityLabel="Clique aqui para abrir as noticias"
+    <View style={ principal}>
 
-/>
+      <Image source={require('./imgs.logo.png')}></Image>
 
-<TouchableOpacity style={button2}>
-<Text style={button2Text}>Mané</Text>
-</TouchableOpacity>
+      <TouchableOpacity onPress={ gerarNovaFrase } style={ btn }>
 
+        <Text style={ textBtn }>Nova Frase</Text>
+
+      </TouchableOpacity>
 
    </View>
   );
